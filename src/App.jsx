@@ -28,30 +28,30 @@ import B from "./assets/images/staffB.jpg";
 import C from "./assets/images/staffC1.jpg";
 import F from "./assets/images/staffF.jpg";
 import G from "./assets/images/staffG.jpg";
-import C2audio from "./assets/audio/pitch recognition audio-C2.wav";
-import D1audio from "./assets/audio/pitch recognition audio-D1.wav";
-import D2audio from "./assets/audio/pitch recognition audio-D2.wav";
-import G1audio from "./assets/audio/pitch recognition audio-G1.wav";
-import A1audio from "./assets/audio/pitch recognition audio-A1.wav";
-import B1audio from "./assets/audio/pitch recognition audio-B1.wav";
-import E2audio from "./assets/audio/pitch recognition audio-E2.wav";
-import F2audio from "./assets/audio/pitch recognition audio-F2.wav";
-import G2audio from "./assets/audio/pitch recognition audio-G2.wav";
-import Gsharp1audio from "./assets/audio/pitch recognition audio-Gsharp1.wav";
-import Fsharp2audio from "./assets/audio/pitch recognition audio-Fsharp2.wav";
-import Fsharp1audio from "./assets/audio/pitch recognition audio-Fsharp1.wav";
-import Csharp2audio from "./assets/audio/pitch recognition audio-Csharp2.wav";
-import Aaudio from "./assets/audio/pitch recognition audio-Low A.wav";
-import Eaudio from "./assets/audio/pitch recognition audio-Low E.wav";
-import Baudio from "./assets/audio/pitch recognition audio-Low B.wav";
-import Caudio from "./assets/audio/pitch recognition audio-Low C.wav";
-import Faudio from "./assets/audio/pitch recognition audio-Low F.wav";
-import Gaudio from "./assets/audio/pitch recognition audio-Low G.wav";
-import LowBbaudio from "./assets/audio/pitch recognition audio-Low Bb-Asharp.wav";
-import Bbaudio from "./assets/audio/pitch recognition audio-Asharp-Bb1.wav";
-import E1audio from "./assets/audio/pitch recognition audio-E1.wav";
-import F1audio from "./assets/audio/pitch recognition audio-F1.wav";
-import Fsharpaudio from "./assets/audio/pitch recognition audio-Low Fsharp.wav";
+import C2audio from "./assets/audio/pitch recognition audio-C2.mp3";
+import D1audio from "./assets/audio/pitch recognition audio-D1.mp3";
+import D2audio from "./assets/audio/pitch recognition audio-D2.mp3";
+import G1audio from "./assets/audio/pitch recognition audio-G1.mp3";
+import A1audio from "./assets/audio/pitch recognition audio-A1.mp3";
+import B1audio from "./assets/audio/pitch recognition audio-B1.mp3";
+import E2audio from "./assets/audio/pitch recognition audio-E2.mp3";
+import F2audio from "./assets/audio/pitch recognition audio-F2.mp3";
+import G2audio from "./assets/audio/pitch recognition audio-G2.mp3";
+import Gsharp1audio from "./assets/audio/pitch recognition audio-Gsharp1.mp3";
+import Fsharp2audio from "./assets/audio/pitch recognition audio-Fsharp2.mp3";
+import Fsharp1audio from "./assets/audio/pitch recognition audio-Fsharp1.mp3";
+import Csharp2audio from "./assets/audio/pitch recognition audio-Csharp2.mp3";
+import Aaudio from "./assets/audio/pitch recognition audio-Low A.mp3";
+import Eaudio from "./assets/audio/pitch recognition audio-Low E.mp3";
+import Baudio from "./assets/audio/pitch recognition audio-Low B.mp3";
+import Caudio from "./assets/audio/pitch recognition audio-Low C.mp3";
+import Faudio from "./assets/audio/pitch recognition audio-Low F.mp3";
+import Gaudio from "./assets/audio/pitch recognition audio-Low G.mp3";
+import LowBbaudio from "./assets/audio/pitch recognition audio-Low Bb-Asharp.mp3";
+import Bbaudio from "./assets/audio/pitch recognition audio-Asharp-Bb1.mp3";
+import E1audio from "./assets/audio/pitch recognition audio-E1.mp3";
+import F1audio from "./assets/audio/pitch recognition audio-F1.mp3";
+import Fsharpaudio from "./assets/audio/pitch recognition audio-Low Fsharp.mp3";
 import hintA1 from "./assets/images/fretboardA1.jpg";
 import hintB1 from "./assets/images/fretboardB1.jpg";
 import hintB1on3 from "./assets/images/fretboardB1 on (3).jpg";
@@ -82,7 +82,7 @@ const originalQuestions = [
   {
     questionImage: Bb,
     answerOptions: [
-      { answerText: "A♯", isCorrect: false },
+      { answerText: "A♯", isCorrect: true },
       { answerText: "A", isCorrect: false },
       { answerText: "B", isCorrect: false },
       { answerText: "C", isCorrect: false },
@@ -207,7 +207,7 @@ const originalQuestions = [
       { answerText: "C♯", isCorrect: false},
       { answerText: "F♯", isCorrect: false},
       { answerText: "G♯", isCorrect: false},
-      { answerText: "B♭", isCorrect: false}
+      { answerText: "B♭", isCorrect: true}
     ],
     answeraudio: B1audio,
     answerHint: hintB1on3,
@@ -272,7 +272,7 @@ const originalQuestions = [
   {
     questionImage: Bb,
     answerOptions: [
-      { answerText: "A♯", isCorrect: false },
+      { answerText: "A♯", isCorrect: true },
       { answerText: "A", isCorrect: false },
       { answerText: "B", isCorrect: false },
       { answerText: "C", isCorrect: false },
